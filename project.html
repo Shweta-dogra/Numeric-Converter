@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Numeric Converter</title>
+
+   <link rel="stylesheet" href="converter.css">
+   <script src="converter.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Numeric Converter</h1>
+        <div id="select-base">
+            <div id="from">
+                <span>From: </span>
+                <select id="from-select">
+                    <option value="Binary">Binary</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Decimal">Decimal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <div id="to">
+                <span>To: </span>
+                <select id="to-select">
+                    <option value="Binary">Binary</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Decimal">Decimal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+        </div>
+        <div id="input">
+            <input type="text" id="from-input" placeholder="Binary Number">
+        </div>
+
+        <div id="btns">
+            <button id="ConvertBtn">Convert</button>
+            <button id="SwapBtn">Swap</button>
+        </div>
+
+        <input type="text" id="to-output" placeholder="Binary Number" readonly>
+    </main>
+</body>
+</html>

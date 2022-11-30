@@ -1,0 +1,76 @@
+* {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+body, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f198f3;
+    background-image:linear-gradient(rgba(16, 119, 237, 0.5), rgba(227, 207, 228, 0.384)), url("./picture/nums.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: #f5d9a1;
+    padding: 120px 100px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 10px 2px #162626;
+}
+
+#select-base{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#from{
+    display: flex;
+    flex-direction: column;
+}
+#to{
+    display: flex;
+    flex-direction: column;
+}
+
+select, input, button{
+    margin: 10px 20px;
+    padding: 7px 15px;
+  }
+
+span{
+    padding: 7px 15px;
+    margin-left: 10px;
+  }
+
+input{
+  min-width: 280px;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  background-color: rgb(125 33 33);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s transform;
+}
+
+/* button:active{ 
+  transform: scale(0.9);
+}*/
+
+/* #error{
+  display: none;
+  color: red;
+} */
