@@ -14,7 +14,7 @@ body, main {
 body {
     min-height: 100vh;
     background-color: #f198f3;
-    background-image:linear-gradient(rgba(16, 119, 237, 0.5), rgba(227, 207, 228, 0.384)), url("./picture/nums.jpeg");
+    background-image:linear-gradient(rgba(16, 119, 237, 0.5), rgba(227, 207, 228, 0.384)), url("./nums.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
